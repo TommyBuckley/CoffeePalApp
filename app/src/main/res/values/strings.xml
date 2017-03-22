@@ -22,4 +22,6 @@
     <string name="text_title">CoffeePal Users</string>
     <string name="user_name">Tommy </string>
    <string name= "location"> Galway </string>
+    <string name= "cafesvisited"> 7 </string>
+    <string name= "beanvalue"> 12 </string>
 </resources>
