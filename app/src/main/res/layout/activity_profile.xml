@@ -116,6 +116,7 @@
     </android.support.design.widget.TabLayout>
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerv"
         android:layout_width="388dp"
         android:layout_height="155dp"
         tools:layout_editor_absoluteX="1dp"
