@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewWelcome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#1ab7ea"
+        android:textSize="50sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextViewUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appCompatTextViewWelcome"
+        android:gravity="center"
+        android:text="@string/user_name"
+        android:textColor="#1ab7ea"
+        android:textSize="50sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonSearchCS"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+
+        android:background="@color/colorTextHint"
+        android:text="Search Coffee Shops"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/appCompatButtonCreateEvents"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonCreateEvents"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@color/colorTextHint"
+        android:text="Create Events"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/appCompatButtonSearchCS"
+        android:layout_alignStart="@+id/appCompatButtonSearchCS"
+        android:layout_marginBottom="109dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignBottom="@+id/appCompatTextViewUsername"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/Kasia" />
+</RelativeLayout>
