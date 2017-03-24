@@ -1,20 +1,11 @@
 package ie.coffeepal.coffeepal.activities;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.view.View;
-import android.view.ViewTreeObserver;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.Interpolator;
-import android.widget.Button;
 import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
-
+import butterknife.BindView;
 import ie.coffeepal.coffeepal.R;
 import ie.coffeepal.coffeepal.Utils.TransformCircle;
 
@@ -22,16 +13,18 @@ import ie.coffeepal.coffeepal.Utils.TransformCircle;
  * Created by Tommy on 15/03/2017.
  */
 
-import butterknife.BindView;
+
+
 
 public class UserProfileActivity extends AppCompatActivity {
+    private final AppCompatActivity activity = UserProfileActivity.this;
 
     private int avatarSize;
     private String profilePhoto;
 
 
-    @BindView(R.id.userProfilePhoto)
-    ImageView userProfilePhoto;
+    @BindView(R.id.ivUserProfilePhoto)
+    ImageView ivUserProfilePhoto;
 
     @BindView(R.id.UserProfileTabs)
     TabLayout UserProfileTabs;
@@ -40,10 +33,10 @@ public class UserProfileActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_user_profile);
 
         this.avatarSize = getResources().getDimensionPixelSize(R.dimen.user_profile_photo);
-        this.profilePhoto = getString(R.string.user_name);
+        this.profilePhoto = getString(R.string.user_profile_photo);
 
         Picasso.with(this)
                 .load(profilePhoto)
@@ -51,7 +44,8 @@ public class UserProfileActivity extends AppCompatActivity {
                 .resize(avatarSize, avatarSize)
                 .centerCrop()
                 .transform(new TransformCircle())
-                .into(userProfilePhoto);
+                .into(ivUserProfilePhoto);
+
 
         setupTabs();
     }

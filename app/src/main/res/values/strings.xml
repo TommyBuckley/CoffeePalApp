@@ -24,4 +24,5 @@
    <string name= "location"> Galway </string>
     <string name= "cafesvisited"> 7 </string>
     <string name= "beanvalue"> 12 </string>
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
 </resources>

@@ -5,4 +5,5 @@ package ie.coffeepal.coffeepal.activities;
  */
 
 public class CafeProfileActivity {
+
 }

@@ -69,7 +69,7 @@
         android:layout_alignLeft="@+id/circle_crop"
         android:layout_alignStart="@+id/circle_crop"
         android:layout_alignTop="@+id/circle_crop"
-        android:src="@drawable/Kasia" />
+        android:src="@drawable/kasia" />
 
     <ImageView
         android:id="@+id/circle_crop"
