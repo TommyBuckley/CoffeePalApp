@@ -1,4 +1,4 @@
-package ie.coffeepal.coffeepal.Utils;
+package ie.coffeepal.coffeepal.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
