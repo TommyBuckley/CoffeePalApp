@@ -37,10 +37,20 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="246dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_height="90dp"
-        app:srcCompat="@drawable/cafetype"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/BL1"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/BLD"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp" />
+
 </android.support.constraint.ConstraintLayout>
