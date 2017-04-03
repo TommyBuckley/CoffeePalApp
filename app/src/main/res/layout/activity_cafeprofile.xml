@@ -5,46 +5,42 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="398dp"
-        android:layout_height="146dp"
-        app:srcCompat="@drawable/cafetype"
-        tools:layout_editor_absoluteY="-27dp"
-        app:layout_constraintRight_toRightOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        style="@android:style/Widget.Holo.Light.ImageButton"
+    <Button
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/MenuButton"
+        android:background="@drawable/CP1"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="226dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Photos"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="428dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Reviews"
-        tools:layout_editor_absoluteY="354dp"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteY="312dp" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="390dp"
-        android:layout_height="63dp"
-        android:layout_marginRight="-3dp"
-        android:background="@drawable/EventsButton"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="304dp" />
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/CP2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="444dp" />
 
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/CP3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/CP4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/cafetype"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
