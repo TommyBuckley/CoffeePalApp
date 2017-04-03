@@ -4,28 +4,34 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/imageButton5"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/AdBanner1" />
+        android:background="@drawable/AdBanner1" />
 
-    <ImageButton
-        android:id="@+id/imageButton7"
+    <Button
+        android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group1" />
+        android:layout_height="120dp"
+        android:background="@drawable/SR1" />
 
-    <ImageButton
-        android:id="@+id/imageButton8"
+    <Button
+        android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/SR2" />
+        android:layout_height="120dp"
+        android:background="@drawable/SR2" />
 
-    <ImageButton
-        android:id="@+id/imageButton9"
+    <Button
+        android:id="@+id/button6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/SR3" />
+        android:layout_height="120dp"
+        android:background="@drawable/SR3" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/SR4" />
 
 </LinearLayout>

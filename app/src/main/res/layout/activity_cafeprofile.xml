@@ -11,7 +11,6 @@
         android:layout_height="146dp"
         app:srcCompat="@drawable/cafetype"
         tools:layout_editor_absoluteY="-27dp"
-        android:layout_marginRight="-14dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageButton
@@ -22,14 +21,6 @@
         app:srcCompat="@drawable/MenuButton"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="226dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/EventsButton"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="289dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -46,5 +37,14 @@
         app:srcCompat="@drawable/Reviews"
         tools:layout_editor_absoluteY="354dp"
         tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="390dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="-3dp"
+        android:background="@drawable/EventsButton"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="304dp" />
 
 </android.support.constraint.ConstraintLayout>
