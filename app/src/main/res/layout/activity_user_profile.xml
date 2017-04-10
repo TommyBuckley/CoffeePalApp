@@ -16,9 +16,9 @@
 
     <ImageView
         android:id="@+id/ivUserProfilePhoto"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/user_profile_photo"
-        tools:layout_editor_absoluteX="119dp"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="111dp" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:text="TextView"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="264dp"
+        tools:layout_editor_absoluteY="213dp"
         tools:text="@string/user_name" />
 
     <TextView
@@ -91,15 +91,40 @@
         android:layout_marginStart="1dp"
         android:background="@color/colorAccent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="307dp">
+        tools:layout_editor_absoluteY="289dp">
 
     </android.support.design.widget.TabLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerv"
-        android:layout_width="388dp"
-        android:layout_height="155dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="357dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/PB1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pb2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pb3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pb4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="470dp" />
 
 </android.support.constraint.ConstraintLayout>
