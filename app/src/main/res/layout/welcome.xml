@@ -8,14 +8,14 @@
         android:id="@+id/appCompatTextViewWelcome"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="Welcome"
         android:textColor="#1ab7ea"
-        android:textSize="50sp" />
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/appCompatTextViewUsername"
+        android:layout_alignEnd="@+id/appCompatTextViewUsername" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/appCompatTextViewUsername"
@@ -24,10 +24,12 @@
         android:gravity="center"
         android:text="@string/user_name"
         android:textColor="#1ab7ea"
-        android:textSize="50sp"
+        android:textSize="40sp"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
         android:layout_below="@+id/appCompatTextViewWelcome"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignRight="@+id/appCompatButtonSearchCS"
+        android:layout_alignEnd="@+id/appCompatButtonSearchCS" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/appCompatButtonSearchCS"
@@ -37,10 +39,9 @@
         android:background="@color/colorTextHint"
         android:text="Search Coffee Shops"
         android:textSize="18sp"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="92dp"
         android:layout_below="@+id/pic"
-        android:layout_alignRight="@+id/appCompatTextViewUsername"
-        android:layout_alignEnd="@+id/appCompatTextViewUsername" />
+        android:layout_centerHorizontal="true" />
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/appCompatButtonCreateEvents"
@@ -78,8 +79,6 @@
         android:src="@drawable/circular_crop"
         android:layout_alignTop="@+id/appCompatTextViewWelcome"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="19dp"
-        android:layout_marginEnd="19dp" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
