@@ -7,15 +7,6 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="399dp"
-        android:layout_height="203dp"
-        android:background="@drawable/background"
-        android:scaleType="centerCrop"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="-4dp"
-        android:layout_marginRight="-1dp" />
-
-    <ImageView
         android:id="@+id/ivUserProfilePhoto"
         android:layout_width="0dp"
         android:layout_height="88dp"
@@ -27,30 +18,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="@color/colorTextHint"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="213dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="141dp"
         tools:text="@string/user_name" />
-
-    <android.support.design.widget.TabLayout
-        android:id="@+id/UserProfileTabs"
-        android:layout_width="382dp"
-        android:layout_height="49dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginStart="1dp"
-        android:background="@color/colorAccent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="289dp">
-
-    </android.support.design.widget.TabLayout>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/PB1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="272dp" />
 
     <Button
         android:id="@+id/button16"
@@ -58,7 +30,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/pb2"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="379dp" />
 
     <Button
         android:id="@+id/button17"
@@ -66,22 +38,53 @@
         android:layout_height="wrap_content"
         android:background="@drawable/pb3"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="404dp" />
-
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/pb4"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="470dp" />
+        tools:layout_editor_absoluteY="445dp" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="158dp"
-        android:layout_height="124dp"
-        app:srcCompat="@drawable/kasia"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="89dp" />
+        android:id="@+id/pic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/circle_crop"
+        android:layout_alignStart="@+id/circle_crop"
+        android:layout_alignTop="@+id/circle_crop"
+        android:src="@drawable/kasia"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="118dp" />
 
+    <ImageView
+        android:id="@+id/circle_crop"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/circular_crop"
+        android:layout_alignTop="@+id/appCompatTextViewWelcome"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="118dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="121dp"
+        android:layout_height="59dp"
+        android:text="21 years old, BIS student and a beauty blogger."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galway, Ireland"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="246dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hashtags"
+        tools:layout_editor_absoluteY="285dp"
+        tools:layout_editor_absoluteX="0dp" />
 </android.support.constraint.ConstraintLayout>
