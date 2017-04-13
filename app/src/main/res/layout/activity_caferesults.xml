@@ -4,32 +4,32 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button2"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/adButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/AdBanner1" />
 
-    <Button
-        android:id="@+id/button4"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/BrickLaneButton"
         android:layout_width="match_parent"
         android:layout_height="115dp"
         android:background="@drawable/SR1" />
 
-    <Button
-        android:id="@+id/button5"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/CostaCoffeeButton"
         android:layout_width="match_parent"
         android:layout_height="115dp"
         android:background="@drawable/SR2" />
 
-    <Button
-        android:id="@+id/button6"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/Street14Button"
         android:layout_width="match_parent"
         android:layout_height="115dp"
         android:background="@drawable/SR3" />
 
-    <Button
-        android:id="@+id/button7"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/WhiteElephantButton"
         android:layout_width="match_parent"
         android:layout_height="115dp"
         android:background="@drawable/SR4" />

@@ -52,11 +52,12 @@ public class SearchActivity extends AppCompatActivity implements View.OnClickLis
                 startActivity(intentSearch);
                 break;
             case R.id.nearMeButton:
-                Intent intentNear = new Intent(getApplicationContext()CafeResultsActivity.class);
+                Intent intentNear = new Intent(getApplicationContext(),CafeResultsActivity.class);
                 startActivity(intentNear);
                 break;
             case R.id.topRatedButton:
-                Intent intentTop = new Intent(getApplicationContext()CafeResultsActivity.class);
+                Intent intentTop = new Intent(getApplicationContext(), CafeResultsActivity.class);
                 startActivity(intentTop);
         }
+    }
     }
