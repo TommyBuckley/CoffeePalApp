@@ -18,7 +18,7 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:background="@drawable/SearchBar"
+        android:background="@drawable/searchbar"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter City Name"
@@ -38,7 +38,7 @@
         android:id="@+id/nearMeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/NearButton"
+        android:background="@drawable/nearbutton"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="289dp" />
 
@@ -46,7 +46,7 @@
         android:id="@+id/topRatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/TopRatedButton"
+        android:background="@drawable/topratedbutton"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="363dp" />
 
@@ -54,7 +54,7 @@
         android:id="@+id/button11"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/AdBanner3"
+        android:background="@drawable/adbanner3"
         tools:layout_editor_absoluteX="-8dp"
         tools:layout_editor_absoluteY="465dp" />
 </android.support.constraint.ConstraintLayout>
