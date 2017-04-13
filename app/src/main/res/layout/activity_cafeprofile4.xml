@@ -9,7 +9,7 @@
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/CP1"
+        android:background="@drawable/cp1"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="312dp" />
 
@@ -17,7 +17,7 @@
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/CP2"
+        android:background="@drawable/cp2"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="444dp" />
 
@@ -25,7 +25,7 @@
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/CP3"
+        android:background="@drawable/cp3"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="378dp" />
 
@@ -33,7 +33,7 @@
         android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/CP4"
+        android:background="@drawable/cp4"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="246dp" />
 
@@ -49,7 +49,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/DESCRIPTIONWHITEELEPHANT"
+        app:srcCompat="@drawable/descriptionwhiteelephant"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="104dp" />
 

@@ -8,7 +8,7 @@
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/EP4" />
+        app:srcCompat="@drawable/ep4" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView8"
-        app:srcCompat="@drawable/EP6"
+        app:srcCompat="@drawable/ep6"
         />
     <Button
         android:id="@+id/button23"

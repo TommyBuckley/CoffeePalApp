@@ -14,13 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView7"
-        app:srcCompat="@drawable/EP8"
+        app:srcCompat="@drawable/ep8"
         />
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView8"
-        app:srcCompat="@drawable/EP9"
+        app:srcCompat="@drawable/ep9"
         />
     <Button
         android:id="@+id/button23"
