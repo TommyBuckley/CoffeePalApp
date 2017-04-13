@@ -26,35 +26,35 @@
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="199dp" />
 
-    <Button
-        android:id="@+id/button8"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/searchButton"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:background="@drawable/search"
         tools:layout_editor_absoluteX="290dp"
         tools:layout_editor_absoluteY="199dp" />
 
-    <Button
-        android:id="@+id/button9"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/nearMeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/NearButton"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="289dp" />
 
-    <Button
-        android:id="@+id/button10"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/topRatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/TopRatedButton"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="363dp" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/button11"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:background="@drawable/AdBanner3"
-        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="465dp" />
 </android.support.constraint.ConstraintLayout>

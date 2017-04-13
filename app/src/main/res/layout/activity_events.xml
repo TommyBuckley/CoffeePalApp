@@ -13,7 +13,7 @@
     <Button
         android:id="@+id/button23"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="147dp"
         android:background="@drawable/ep1"
         android:text="Button" />
 </LinearLayout>
