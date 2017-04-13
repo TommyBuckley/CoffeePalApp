@@ -9,11 +9,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/StudySession" />
-
-    <Button
-        android:id="@+id/button23"
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        app:srcCompat="@drawable/EP2"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        app:srcCompat="@drawable/EP3"
+        />
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="360dp"
+        android:layout_height="115dp"
         android:background="@drawable/ep1"
         android:text="Button" />
+
+    <Button
+        android:id="@+id/attend_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1ab7ea"
+        android:text="ATTEND" />
 </LinearLayout>

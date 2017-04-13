@@ -12,7 +12,8 @@
         android:background="@drawable/background"
         android:scaleType="centerCrop"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="-4dp"
+        android:layout_marginRight="-1dp" />
 
     <ImageView
         android:id="@+id/ivUserProfilePhoto"
@@ -49,7 +50,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/PB1"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="256dp" />
+        tools:layout_editor_absoluteY="272dp" />
 
     <Button
         android:id="@+id/button16"
@@ -57,7 +58,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/pb2"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="322dp" />
+        tools:layout_editor_absoluteY="338dp" />
 
     <Button
         android:id="@+id/button17"
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/pb3"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="388dp" />
+        tools:layout_editor_absoluteY="404dp" />
 
     <Button
         android:id="@+id/button18"
@@ -73,7 +74,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/pb4"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="454dp" />
+        tools:layout_editor_absoluteY="470dp" />
 
     <ImageView
         android:id="@+id/imageView6"
