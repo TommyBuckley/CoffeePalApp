@@ -8,30 +8,30 @@
         android:id="@+id/adButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/adbanner1" />
+        android:background="@drawable/AdBanner1" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/BrickLaneButton"
+        android:id="@+id/cafe1Button"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        android:background="@drawable/sr1" />
+        android:background="@drawable/SR1" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/CostaCoffeeButton"
+        android:id="@+id/cafe2Button"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        android:background="@drawable/sr2" />
+        android:background="@drawable/SR2" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/Street14Button"
+        android:id="@+id/cafe3Button"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        android:background="@drawable/sr3" />
+        android:background="@drawable/SR3" />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/WhiteElephantButton"
+        android:id="@+id/cafe4Button"
         android:layout_width="match_parent"
         android:layout_height="115dp"
-        android:background="@drawable/sr4" />
+        android:background="@drawable/SR4" />
 
 </LinearLayout>

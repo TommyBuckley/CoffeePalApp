@@ -3,16 +3,27 @@ package ie.coffeepal.coffeepal.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TextInputEditText;
+import android.support.design.widget.TextInputLayout;
+import android.support.v4.widget.NestedScrollView;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
+import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import ie.coffeepal.coffeepal.R;
+
 
 /**
  * Created by Tommy on 13/04/2017.
  */
 
-public class CafeResultsActivity {
+
+public class searchActivity extends AppCompatActivity implements View.OnClickListener{
+    private AppCompatButton searchButton;
+    private AppCompatButton nearMeButton;
+    private AppCompatButton topRatedButton;
+
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
@@ -47,11 +58,12 @@ public class CafeResultsActivity {
                 break;
             case R.id.nearMeButton:
                 Intent intentNear = new Intent(getApplicationContext()CafeResultsActivity.class);
-                startActivity(intentNear);
+                        startActivity(intentNear);
                 break;
             case R.id.topRatedButton:
                 Intent intentTop = new Intent(getApplicationContext()CafeResultsActivity.class);
                 startActivity(intentTop);
         }
     }
+
 }
